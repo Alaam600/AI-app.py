@@ -30,7 +30,7 @@ with Q_A:
         gemini = 'gemini-3.1-flash-lite-preview'
         
         
-        gemi.configure(api_key=st.secrets('api'))
+        gemi.configure(api_key=st.secrets['api'])
         model = gemi.GenerativeModel(model_name=gemini)
         
         with st.chat_message('assistant', avatar='😒'):
