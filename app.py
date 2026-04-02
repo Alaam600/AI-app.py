@@ -5,6 +5,7 @@ st.title('first web🥇')
 
 Q_A, quizzes, planner = st.tabs(['Q&A','quizzes', 'planner' ])
 
+
 with Q_A:
     col1, col2 = st.columns(2)
     with col1:
@@ -45,6 +46,13 @@ with Q_A:
             with st.spinner('Generating...🧠'):
                 answer = model.generate_content(prompt)
             st.write(answer.text)
-            
+ 
+with quizzes:
+    st.title('comming soon...')
+        
+        
+with planner:
+    st.title('comming soon...')
+        
        
         
