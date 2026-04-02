@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as gemi
 
-st.title('first web🥇')
+st.title('second web🥇')
 
 Q_A, quizzes, planner = st.tabs(['Q&A','quizzes', 'planner' ])
 
